@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYL Visuals - Professional Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">
+                    <img src="src\Tyllogo.PNG" alt="Logo"class="logo-img" >
+                  </span>
+                  
+            </div>
+            <div class="nav-menu">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About us</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link contact-btn">Contact us</a>
+                <!-- <a href="#admin" class="nav-link">Admin</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- <div class="hero-text">
+                <h1>Capturing the fire within every stone.</h1>
+            </div> -->
+            <div class="hero-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <img src="src\1.png" alt="Jewelry Ring">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="src\2.png" alt="Gold Bangles">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="src\3.png" alt="Gold Choker">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="src\4.png" alt="Traditional Clothing">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="src\5.png" alt="Modern Architecture">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="src\6.png" alt="Modern Architecture">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="src\7.png" alt="Modern Architecture">
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                    <span class="dot" data-slide="5"></span>
+                    <span class="dot" data-slide="6"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            
+            <!-- Category Cards -->
+            <div class="category-cards">
+                <a href="jewelry.html" class="category-card" data-category="jewelry">
+                    <div class="card-image">
+                        <img src="src\Jewelry\Photos\IMG_0536.jpg" alt="Jewelry">
+                        <!-- <div class="card-overlay">
+                            <span class="brand-name">Girija Art Jewels</span>
+                        </div> -->
+                    </div>
+                    <h3>Jewelry</h3>
+                </a>
+                
+                <a href="clothing.html" class="category-card" data-category="clothing">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop" alt="Clothing">
+                    </div>
+                    <h3>Clothing</h3>
+                </a>
+                
+                <a href="architecture.html" class="category-card" data-category="architecture">
+                    <div class="card-image">
+                        <img src="src\Architecture\IMG_9488-2.jpg" alt="Architecture">
+                    </div>
+                    <h3>Architecture</h3>
+                </a>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-section">
+                <div class="category-filters">
+                    <button class="filter-btn active" data-filter="jewelry">Jewelry</button>
+                    <button class="filter-btn" data-filter="clothing">Clothing</button>
+                    <button class="filter-btn" data-filter="architecture">Architecture</button>
+                </div>
+                
+                <div class="media-filters">
+                    <button class="media-btn active" data-media="photo">Photo </button>
+                    <button class="media-btn" data-media="video">Video</button>
+                </div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="gallery">
+                <!-- Jewelry Items -->
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\3.png" alt="Silver Ring">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\5.png" alt="Gold Bangles">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\6.png" alt="Gold Choker">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\32.png" alt="Shell Earrings">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\38.png" alt="Shell Necklace">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_0382.jpg" alt="Enamel Bangles">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_0384.jpg" alt="Silver Cuff">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_0527.jpg" alt="Floral Bangles">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_0875.jpg" alt="Silver Set">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_2141.jpg" alt="Gold Ring">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_4551.jpg" alt="Diamond Ring">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_5135.PNG" alt="Pearl Set">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_4239.jpg" alt="Emerald Ring">
+                </div>
+                <div class="gallery-item jewelry photo show" data-category="jewelry" data-media="photo">
+                    <img src="src\Jewelry\Photos\IMG_3807.jpg" alt="Sapphire Set">
+                </div>
+
+                <!-- Clothing Items -->
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_3935.jpg" alt="Traditional Kurtas">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_4006.jpg" alt="Embroidered Dress">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_4099.jpg" alt="Designer Wear">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_4158.jpg" alt="Fashion Collection">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_4172.jpg" alt="Ethnic Wear">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5377.jpg" alt="Bridal Collection">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5551.jpg" alt="Casual Wear">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5595.jpg" alt="Formal Wear">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5577.jpg" alt="Designer Sarees">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5637.jpg" alt="Lehenga Collection">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5613.jpg" alt="Wedding Collection">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5773.jpg" alt="Party Wear">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5794.jpg" alt="Festive Collection">
+                </div>
+                <div class="gallery-item clothing photo show" data-category="clothing" data-media="photo">
+                    <img src="src\Clothing\IMG_5798.jpg" alt="Designer Suits">
+                </div>
+
+                <!-- Architecture Items -->
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9251.png" alt="Modern Building">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9268.jpg" alt="Corporate Office">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9275.png" alt="Industrial Complex">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9278.png" alt="Commercial Building">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9298.png" alt="Modern Facade">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9323.png" alt="Glass Building">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9340.jpg" alt="Urban Architecture">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9345.jpg" alt="Contemporary Design">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9347.jpg" alt="Business Complex">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9361.png" alt="Modern Office">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9400.png" alt="Industrial Design">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9488-2.jpg" alt="Commercial Complex">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9370.png" alt="Urban Development">
+                </div>
+                <div class="gallery-item architecture photo show" data-category="architecture" data-media="photo">
+                    <img src="src\Architecture\IMG_9323.png" alt="Modern Architecture">
+                </div>
+
+                <!-- Video Items -->
+                <div class="gallery-item jewelry video" data-category="jewelry" data-media="video">
+                    <video controls width="100%" poster="thumbnail1.jpg">
+                      <source src="src\Jewelry\Video\02.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  
+                  <div class="gallery-item jewelry video" data-category="jewelry" data-media="video">
+                    <video controls width="100%" poster="thumbnail2.jpg">
+                      <source src="src\Jewelry\Video\09.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  
+                  <div class="gallery-item jewelry video" data-category="jewelry" data-media="video">
+                    <video controls width="100%" poster="thumbnail3.jpg">
+                      <source src="src\Jewelry\Video\10.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  
+                  <div class="gallery-item jewelry video" data-category="jewelry" data-media="video">
+                    <video controls width="100%" poster="thumbnail4.jpg">
+                      <source src="src\Jewelry\Video\17.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  
+                  <div class="gallery-item jewelry video" data-category="jewelry" data-media="video">
+                    <video controls width="100%" poster="thumbnail5.jpg">
+                      <source src="src\Jewelry\Video\25.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  
+                  <div class="gallery-item jewelry video" data-category="jewelry" data-media="video">
+                    <video controls width="100%" poster="thumbnail6.jpg">
+                      <source src="src\Jewelry\Video\30 (1).mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  
+                </div>
+                <!-- <div class="gallery-item clothing video" data-category="clothing" data-media="video">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Clothing Video 1</span>
+                    </div>
+                </div>
+                <div class="gallery-item clothing video" data-category="clothing" data-media="video">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Clothing Video 2</span>
+                    </div>
+                </div>
+                <div class="gallery-item architecture video" data-category="architecture" data-media="video">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Architecture Video 1</span>
+                    </div>
+                </div>
+                <div class="gallery-item architecture video" data-category="architecture" data-media="video">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Architecture Video 2</span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose TYL Visuals</h2>
+                    <p>At TYL Visuals, we combine a deep understanding of business, corporate culture, and marketing psychology with world-class photography skills. This unique blend allows us to create visuals that don't just look stunning — they drive results.</p>
+                </div>
+                <div class="three-pillars">
+                    <h3>Three Pillars</h3>
+                    <div class="pillar">
+                        <div class="pillar-btn">Business Insight</div>
+                        <p>Years of experience in engineering and corporate environments give us a unique perspective on what brands need.</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-btn">Creative Mastery</div>
+                        <p>Proven expertise in crafting high-performing campaigns, including work for TYL Accessories.</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-btn">Psychology-Driven Approach</div>
+                        <p>Grounded in consumer psychology and neuroscience to ensure every image makes an impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p style="text-align:center;">
+                Ready to capture your special moments? Contact us today to discuss your photography needs.
+              </p>
+              <br>
+            <div class="contact-buttons">
+                <a href="https://wa.me/919426616954" class="contact-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+                <a href="tel:+919426616954" class="contact-btn call">
+                    <i class="fas fa-phone"></i>
+                    Call Now
+                </a>
+            </div>
+            
+            <p class="phone-number">+919426616954</p>
+            
+            <div class="contact-form-section">
+                <h3>Let's create visuals that work for your business.</h3>
+                <p>Get in touch with us to discuss your photography and videography needs.</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="you@company.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="+1 234 567 890">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Photography inquiry, project details...">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Tell us about your project, requirements, timeline..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Get in touch</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <p>Stay updated with our latest insights, tips, and behind the scenes stories from the world of professional photography.</p>
+        </div>
+    </section> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
